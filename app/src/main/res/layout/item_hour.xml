@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HA NOI"
+        android:textColor="#40431818"
+        android:textSize="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tivila"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Time"
+        android:text="Now"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/Icon"
+        android:layout_below="@+id/tvTem"
+        android:layout_marginTop="11dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTem"
+        android:text="28"
+        android:textColor="#fff"
+        android:layout_below="@+id/Icon"
+        android:layout_marginTop="11dp"
+        />
+</RelativeLayout>
